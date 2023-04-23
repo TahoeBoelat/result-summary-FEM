@@ -2,5 +2,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
 
 * {
+    margin: 0;
     font-family: 'Hanken Grotesk', arial;
+}
+
+/* Desktop style */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    margin-top: 80px;
+}
+.firstSection {
+}
+.secondSection {
+}
+.subContainer {
+    display: flex;
+    gap: 55px;
+}
+.disclaimer {
+    margin-top: 18px;
+    text-align: center;
 }
