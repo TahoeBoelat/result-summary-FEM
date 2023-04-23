@@ -15,6 +15,10 @@
     margin-top: 80px;
 }
 .firstSection {
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 25px;
+    height: 250px;
+    width: 350px;
 }
 .secondSection {
 }
