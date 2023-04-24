@@ -79,8 +79,22 @@
     font-size: 18px;
 }
 .subResult {
-    margin-left: 25px;
+    margin-left: auto;
 }
+.btnContainer {
+    background: hsl(224, 30%, 27%);
+    width: 250px;
+    height: 35px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 15px;
+}
+.btnProgress {
+    color: white;
+    text-decoration: none;
+}
+/* End second section */
 .disclaimer {
     margin-top: 18px;
     text-align: center;
