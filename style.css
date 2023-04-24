@@ -17,8 +17,44 @@
 .firstSection {
     background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     border-radius: 25px;
-    height: 250px;
-    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+    width: 250px;
+    padding: 25px;
+}
+.firstSectionTitle {
+    color:  hsl(224, 30%, 27%);
+}
+.firstResultTitle, .resultDescription, .mainValue {
+    color: hsl(0, 0%, 100%);
+}
+.firstSectionContainer {
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 170px;
+    width: 180px;
+    border-radius: 120px;
+}
+.mainValue {
+    margin-top: 35px;
+    font-size: 36px;
+}
+.secondValue {
+    color: hsl(241, 100%, 89%);
+    margin-top: 15px;
+}
+.firstResultTitle {
+    font-size: 36px;
+}
+.resultDescription {
+    margin-top: 15px;
+    text-align: center;
 }
 .secondSection {
 }
