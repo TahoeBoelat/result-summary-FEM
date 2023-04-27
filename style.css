@@ -71,7 +71,6 @@
 .subContainer {
     margin-top: 25px;
     padding: 0;
-    gap: 45px;
     display: flex;
     column-gap: 2em;
 }
@@ -122,4 +121,52 @@
 .disclaimer {
     margin-top: 18px;
     text-align: center;
+}
+/* End of Desktop Style */
+/* Mobile Style */
+@media only screen and (min-width: 375px) and (max-width: 950px) {
+    .container {
+        margin: auto;
+        flex-direction: column;
+    }
+    .firstSection {
+        width: auto;
+        height: auto;
+    }
+    .firstSectionContainer {
+        padding: 0;
+        width: 112px;
+        height: 112px;
+    }
+    .mainValue {
+        margin-top: 15px;
+        font-size: 24px;
+    }
+    .secondValue {
+        font-size: 18px;
+    }
+    .firstResultTitle {
+        font-size: 24px;
+    }
+    .resultDescription {
+        font-size: 18px;
+    }
+    .secondSectionTitle {
+        font-size: 18px;
+    }
+    .subTitle, .subResult {
+        font-size: 14px;
+    }
+    .secondSection {
+        margin-top: 10px;
+    }
+    .subContainer {
+        margin-bottom: 15px;
+    }
+    .btnProgress {
+        margin-top: 25px;
+    }
+    .disclaimer {
+        margin-top: 25px;
+    }
 }
