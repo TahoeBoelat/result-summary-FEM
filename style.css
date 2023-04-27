@@ -78,10 +78,22 @@
 .subTitle {
     font-size: 18px;
 }
+.subTitle1 {
+    color: hsl(0, 100%, 67%);
+}
+.subTitle2 {
+    color: hsl(39, 100%, 56%);
+}
+.subTitle3 {
+    color: hsl(166, 100%, 37%);
+}
+.subTitle4 {
+    color: hsl(234, 85%, 45%);
+}
 .subResult {
     margin-left: auto;
 }
-.btnContainer {
+/* .btnContainer {
     background: hsl(224, 30%, 27%);
     width: 250px;
     height: 35px;
@@ -90,9 +102,21 @@
     margin-top: 25px;
     padding-top: 15px;
 }
+*/
 .btnProgress {
     color: white;
     text-decoration: none;
+    background: hsl(224, 30%, 27%);
+    width: 250px;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 25px;
+}
+.btnProgress:hover {
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%)); 
 }
 /* End second section */
 .disclaimer {
