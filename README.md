@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Repository](https://github.com/TahoeBoelat/result-summary-FEM)
+- Live Site URL: [Netlify](https://resultsummary-fme-nuralfi.netlify.app/)
 
 ### Built with
 
@@ -32,5 +32,5 @@ Users should be able to:
 
 ## Author
 
-- Github - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Github - [TahoeBoelat](https://www.github.com/tahoeboelat)
+- Frontend Mentor - [@TahoeBoelat](https://www.frontendmentor.io/profile/TahoeBoelat)
