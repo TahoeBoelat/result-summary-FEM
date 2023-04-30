@@ -69,10 +69,26 @@
     font-weight: 700;
 }
 .subContainer {
-    margin-top: 25px;
-    padding: 0;
+    height: 45px;
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 15px;
     display: flex;
     column-gap: 2em;
+    border-radius: 15px;
+}
+.subContainer1 {
+    background-color: hsl(0, 100%, 67%, 0.2);
+}
+.subContainer2 {
+    background-color: hsl(39, 100%, 56% ,0.2);
+}
+.subContainer3 {
+    background-color: hsl(166, 100%, 37%, 0.2);
+}
+.subContainer4 {
+    background-color: hsl(234, 85%, 45%, 0.2);
 }
 .subTitle {
     font-size: 18px;
@@ -91,6 +107,14 @@
 }
 .subResult {
     margin-left: auto;
+}
+.greyText {
+    margin-right: 10px;
+    color: hsl(224, 30%, 27%);
+}
+.icon {
+    padding-bottom: 15px;
+    padding-left: 5px;
 }
 /* .btnContainer {
     background: hsl(224, 30%, 27%);
@@ -161,7 +185,16 @@
         margin-top: 10px;
     }
     .subContainer {
+        height: 30px;
+        padding-top: 15px;
+        padding-right: 5px;
+        padding-left: 5px;
         margin-bottom: 15px;
+        border-radius: 10px;
+    }
+    .icon {
+        padding-bottom: 10px;
+        padding-left: 10px;
     }
     .btnProgress {
         margin-top: 25px;
